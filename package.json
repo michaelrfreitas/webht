@@ -1,0 +1,20 @@
+{
+  "name": "webht",
+  "version": "1.0.0",
+  "description": "website highend-technology",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelrfreitas/webht.git"
+  },
+  "author": "Michael Freitas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelrfreitas/webht/issues"
+  },
+  "homepage": "https://github.com/michaelrfreitas/webht#readme"
+}
