@@ -1,13 +1,10 @@
-var mongoose = require('mongoose'),
-    //MongoDB URL
-    uri = process.env.MONGO_CONNECTION;
-
+//MongoDB URL
 //Mongoose connection with specifications
+var mongoose = require('mongoose'),
+    uri = process.env.MONGO_CONNECTION;
 mongoose.connect(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
 });
 
 //Collection schema to add data in MongoDB
